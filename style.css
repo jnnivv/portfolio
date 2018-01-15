@@ -7,7 +7,15 @@ body{
 
   border-bottom: 2vh solid #000;
 }
+a {
+  text-decoration: none;
+  color:#000;
+}
 
+a:hover {
+  color:#000;
+  text-decoration:none;
+}
 .header {
   font-family: 'Space Mono', sans-serif;
   font-weight:400;
@@ -404,6 +412,11 @@ padding:10%;
 
 
 border-bottom: 2vh solid #e5f6e6;
+}
+
+.box:hover {
+  background-color: #fff;
+  border-bottom: 2vh solid #ffefae;
 }
 
 .box2 {
