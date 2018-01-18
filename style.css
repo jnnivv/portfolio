@@ -45,6 +45,18 @@ a:hover {
   font-size:20px;
 }
 
+.sidestate {
+  font-family: 'Karla';
+  font-weight:400;
+  font-size: 20px;
+  position: relative;
+ top: 50%;
+ -webkit-transform: translateY(-50%);
+ -ms-transform: translateY(-50%);
+ transform: translateY(-50%);
+
+}
+
 .role {
   padding: 0% 5% 5% 5%;
   text-align: left;
@@ -426,6 +438,10 @@ padding:10%;
 
 z-index: 10;
 border-bottom: 2vh solid #fef5de;
+}
+
+.box2:hover {
+  border-bottom: 2vh solid #ffb6d1;
 }
 
 .box3 {
