@@ -35,6 +35,14 @@ a:hover {
 .name {
   border-bottom: 1.3vh solid #e8deea;
   padding: 2%;
+  -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+}
+
+.name:hover {
+  border-bottom: 1.3vh solid #fff7cb;
 }
 
 .statement {
