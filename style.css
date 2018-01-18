@@ -45,6 +45,22 @@ a:hover {
   font-size:20px;
 }
 
+.statement a {
+  padding: 2%;
+  border: 2px solid #fff193;
+  border-radius:10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+}
+
+.statement a:hover {
+  border: 2px solid #ff93ac;
+}
+
 .sidestate {
   font-family: 'Karla';
   font-weight:400;
